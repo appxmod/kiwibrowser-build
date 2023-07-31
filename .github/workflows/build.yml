@@ -28,8 +28,8 @@ jobs:
       if: ${{ env.PUSH_TOKEN != '' }}
       run: |
         echo "PUSH_TOKEN=${{ secrets.PUSH_TOKEN }}" >> $GITHUB_ENV
-        git config --global user.email "wanluoliang@126.com"
-        git config --global user.name "wankaiming"
+        git config --global user.email "302772670@qq.com"
+        git config --global user.name "KnIfER"
 
     - uses: actions/setup-java@v3
       with:
